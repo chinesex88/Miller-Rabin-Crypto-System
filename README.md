@@ -8,19 +8,23 @@
 
 BigNumber.cpp
 BigNumber.h
+demp.cpp
+大數運算
 
 ptest.cpp
 ptest.h
 ptestdemo.cpp
+質數測試
 
 RabinCrypto.cpp
+加密系統與大質數產生
 
 
 使用 make指令可直接 compile and run 本次作業主要的IO
 若已經compile過，可使用 make run指令
 make clean可清除多餘檔案
 
-依照範例格式輸入16進位數字即可進行加密集解密
+依照範例格式輸入16進位數字即可進行加密及解密
 
 <*Miller-Rabin*>
 的部分將會生成256bit的質數，運行時間稍久，依亂數種子的運氣而定。
